@@ -1,0 +1,58 @@
+body {
+    box-sizing: border-box;
+}
+
+header {
+    background-color: tomato;
+    height: 80px;
+    display: flex;
+}
+
+h1 {
+    font-size: 40px;
+    color: darkolivegreen;
+    border: 2px solid green;
+}
+
+.top-section {
+    border: 2px solid darkgreen;
+    height: 450px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+.filters-box {
+    border: 5px solid orange;
+    height: 50px;
+}
+
+.charts-box{
+    /* border: 2px solid purple; */
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.chart-2-box, .chart-1-box, .chart-3-box {
+    border: 2px solid blue;
+    border-radius: 10px;
+    width: 45%;
+    height: 350px;
+    /* margin-top: 20px; */
+}
+
+canvas {
+    /* border: 2px solid orange; */
+    /* background-color: lightsalmon; */
+    width: 700px;
+    height: 600px;
+}
+
+.filters-box {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+}
