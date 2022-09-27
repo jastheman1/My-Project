@@ -17,10 +17,10 @@ h1 {
 
 .top-section {
     border: 2px solid darkgreen;
-    height: 450px;
+    /* height: 550px; */
     display: flex;
     flex-direction: column;
-    justify-content: space-evenly;
+    /* justify-content: space-evenly; */
 }
 
 .filters-box {
@@ -40,7 +40,7 @@ h1 {
     border: 2px solid blue;
     border-radius: 10px;
     width: 45%;
-    height: 350px;
+    /* height: 350px; */
     /* margin-top: 20px; */
 }
 
@@ -48,7 +48,7 @@ canvas {
     /* border: 2px solid orange; */
     /* background-color: lightsalmon; */
     width: 700px;
-    height: 600px;
+    /* height: 400px; */
 }
 
 .filters-box {
